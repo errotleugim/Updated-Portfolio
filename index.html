@@ -8,10 +8,12 @@
         <title>Resume - Start Bootstrap Theme</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f79518a592.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
       
@@ -30,7 +32,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Work</a></li>
 
                 </ul>
             </div>
@@ -50,7 +52,7 @@
                     </div>
                     <p class="lead mb-5">I am somewhat experienced in Javascript, HTML and CSS. I've no interest in a career in front-end development. Hence the template. Check back when I know back-end.</p>
                     <div class="social-icons">
-
+                        <a class="social-icon" href="#"><i class="fas fa-file-pdf"></i></a>
                         <a class="social-icon" href="https://github.com/errotleugim"><i class="fab fa-github"></i></a>
 
                     </div>
@@ -63,7 +65,7 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">The Coding Bootcamp @ UCSD</h3>
+                            <h3 class="mb-0">The Coding Bootcamp @ UCSD Extension</h3>
                             <div class="subheading mb-3">Fullstack Development</div>
                             <p>Halfway through the Bootcamp, I am familiar with front-end technologies. </p>
                         </div>
@@ -78,7 +80,7 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Universida Autónoma de Baja California</h3>
+                            <h3 class="mb-0">Universidad Autónoma de Baja California</h3>
                             <div class="subheading mb-3">Psychology</div>
                             <div>Clinical Psychology</div>
                             
@@ -123,9 +125,25 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 class="mb-5">Work</h2>
+                    <div class="d-inline-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/ss1.png" alt="Screenshot preview">
+                        <div class="card-body">
+                          <h5 class="card-title">Restroom Finder</h5>
+                          <p class="card-text">Web App to find potential restrooms around a given radius Uses Google APIs.</p>
+                          <a href="https://will-pikus.github.io/Restroom-Finder/" class="btn btn-primary">Deployed App</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
